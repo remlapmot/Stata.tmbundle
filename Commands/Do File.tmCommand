@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+osascript -e "tell application id \"com.stata.stata12\"
+	open POSIX file \"${TM_FILEPATH}\"
+end tell"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Do File</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.stata</string>
+	<key>uuid</key>
+	<string>B1E8AA7A-171E-4E0B-B254-79D9AD936032</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
