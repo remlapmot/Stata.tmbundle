@@ -1,6 +1,6 @@
 # Stata.tmbundle
 
-TextMate support for Stata
+A **TextMate Bundle** for the **[Stata](http://www.stata.com)** statistical software package.
 
 # Installation
 
