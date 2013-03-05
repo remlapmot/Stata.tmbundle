@@ -1,5 +1,4 @@
-Stata.tmbundle
-==============
+# Stata.tmbundle
 
 TextMate support for Stata
 
