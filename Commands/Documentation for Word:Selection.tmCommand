@@ -25,8 +25,10 @@ then
 		else echo "help $TM_CURRENT_WORD" &gt; "$TMPFILE"
 	fi
 	osascript &lt;&lt;-APPLESCRIPT
+	ignoring application responses
 		tell application id "com.stata.stata12" to activate
 		tell application id "com.stata.stata12" to open POSIX file "${TMPFILE}"
+	end ignoring
 		delay 0.5
 		do shell script "rm \"${TMPFILE}\""
 	APPLESCRIPT

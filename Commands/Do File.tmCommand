@@ -8,9 +8,12 @@
 	<string>#!/usr/bin/env bash
 [[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
 
-osascript -e "tell application id \"com.stata.stata12\"
+
+osascript -e "ignoring application responses
+	tell application id \"com.stata.stata12\"
 	open POSIX file \"${TM_FILEPATH}\"
-end tell"
+	end tell
+	end ignoring"
 </string>
 	<key>input</key>
 	<string>none</string>
