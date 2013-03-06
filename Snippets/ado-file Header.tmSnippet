@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>*! 1.0.0d1  `date +%Y-%m-%d`
+	<string>*! ${3:version_number} ${4:Author} `date +%d%h%Y`
 // ${1:description}
 
-program ${2:program name}
-	version 11.1
+program ${2:program_name}
+	version 12.1
 	$0
 
 end
