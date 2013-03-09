@@ -4,10 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>forvalues ${1:lname} = ${2:range} {
-    $0
+	$0
 }</string>
 	<key>name</key>
 	<string>forvalues</string>
+	<key>scope</key>
+	<string>source.stata</string>
 	<key>tabTrigger</key>
 	<string>forv</string>
 	<key>uuid</key>
