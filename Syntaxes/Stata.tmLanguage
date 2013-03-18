@@ -112,9 +112,9 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(//).*$\n?</string>
+			<string>(///).*$\n?</string>
 			<key>name</key>
-			<string>comment.line.double-slash.stata</string>
+			<string>comment.line.triple-slash.stata</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -126,9 +126,9 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(///).*$\n?</string>
+			<string>(//).*$\n?</string>
 			<key>name</key>
-			<string>comment.line.triple-slash.stata</string>
+			<string>comment.line.double-slash.stata</string>
 		</dict>
 		<dict>
 			<key>match</key>
