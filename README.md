@@ -2,7 +2,7 @@
 
 A **TextMate Bundle** for the **[Stata](http://www.stata.com)** statistical software package.
 
-This is a fork of the Stata bundle (without tab completion) available from Dan Byler's blog available  [here](http://bylr.net/3/2010/10/stata-bundle-for-textmate/).
+This is a fork of version 4 of the Stata bundle by Phil Schumm available [here](https://sourceforge.net/projects/statatmbundle/).
 
 # Installation
 
